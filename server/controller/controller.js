@@ -14,7 +14,10 @@ const user = new Userdb({
     name: req.body.name,
     email: req.body.email,
     gender: req.body.gender,
-    status: req.body.status
+    status: req.body.status,
+    proofsubmitted:req.body.proofsubmitted,
+    department:req.body.department,
+    salary:req.body.salary
 })
 
 // save user in data base

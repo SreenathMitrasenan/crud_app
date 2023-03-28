@@ -34,6 +34,5 @@ exports.update_user=(req,res)=>{
          .catch(err=>{
             res.send(err);
          })
-
    // res.render('update_user');   old stm  
 }
